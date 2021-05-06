@@ -6,11 +6,24 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.bloc-4{
+    padding-top: 60px;
+}
+
 
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -45,7 +58,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 70px 50px;    
 }
 
 .bloc-md {
@@ -77,7 +90,8 @@ a:hover {
 }
 
 .bg-t-edge {
-    background: top no-repeat;
+    background: right no-repeat ;
+   
 }
 
 .bloc-bg-texture::before {
@@ -93,6 +107,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .b-parallax {
@@ -476,7 +491,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -677,11 +692,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: fit-content;
     margin: auto auto auto auto;
 }
 
@@ -694,18 +709,21 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    margin-top: 20px;
 }
 
+
 h2 {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: bold;
     line-height: 1.4em;
 }
 
@@ -724,10 +742,12 @@ h3 {
 
 h1 {
     color: #333333!important;
+  
 }
 
 h4 {
     color: #333333!important;
+    font-size: 20px;
 }
 
 .icons {
@@ -775,17 +795,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #e48051!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .ltc-white {
