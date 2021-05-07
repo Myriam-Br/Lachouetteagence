@@ -532,11 +532,14 @@
 }
 
 .fa-chevron-left:before {
-    content: "\f053"
+    content: "\f053";
+    color: black;
+
 }
 
 .fa-chevron-right:before {
-    content: "\f054"
+    content: "\f054";
+    color: black;
 }
 
 .fa-plus-circle:before {
@@ -800,7 +803,8 @@
 }
 
 .fa-twitter:before {
-    content: "\f099"
+    content: "\f099";
+   
 }
 
 .fa-facebook-f:before,
