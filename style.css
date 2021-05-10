@@ -10,6 +10,32 @@ body {
     padding-top: 60px;
 }
 
+/*accessibilité navigation et lien avec le focus*/
+.navbar-brand:focus{
+    border: solid black 2px;
+    transition: all 0ms;
+}
+.navbar-toggle:focus{
+    border: solid black 2px;
+}
+.breadcrumb-item a:focus{
+    border: solid black 2px;
+}
+#bloc-3-what-i-do a:focus{
+    border: rgb(255, 79, 15) solid 3px;
+}
+
+#bloc-4-portfolio a:focus{
+    border: solid black 3px;
+}
+
+#bloc-5-cta a:focus{
+    background-color: rgb(251, 251, 251);
+     
+}
+.cta-hero:focus{
+    background-color: rgb(83, 230, 25);
+}
 
 a,
 button {
@@ -719,6 +745,7 @@ p {
     max-width: 400px;
     margin: auto;
     margin-top: 20px;
+   
 }
 
 
