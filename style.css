@@ -10,7 +10,7 @@ body {
     padding-top: 60px;
 }
 
-/*accessibilité navigation et lien avec le focus*/
+/*accessibilité navigation et lien avec le focus (start)*/
 .navbar-brand:focus{
     border: solid black 2px;
     transition: all 0ms;
@@ -30,12 +30,16 @@ body {
 }
 
 #bloc-5-cta a:focus{
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(29, 211, 53);
      
 }
 .cta-hero:focus{
-    background-color: rgb(83, 230, 25);
+    background-color: rgb(29, 211, 53)  ;
 }
+.d-bloc a:focus .icon-md{
+    color: rgb(255, 255, 255);
+}
+/*accessibilité navigation et lien avec le focus (end)*/
 
 a,
 button {
@@ -193,6 +197,8 @@ a:hover {
 .d-bloc p a:hover {
     color: rgb(255, 255, 255);
 }
+
+
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);

@@ -157,6 +157,7 @@ function setUpLightBox() {
         } else $("#lightbox-image").attr("src", o).show(), $(".lightbox-caption").html(a.attr("data-caption")).show(), $("#lightbox-video-container").hide();
         targetLightbox = a, $(".next-lightbox, .prev-lightbox").hide(), "no-gallery-set" == e ? ($("a[data-lightbox]").index(a) != $("a[data-lightbox]").length - 1 && $(".next-lightbox").show(), $("a[data-lightbox]").index(a) > 0 && $(".prev-lightbox").show()) : ($('a[data-gallery-id="' + e + '"]').index(a) != $('a[data-gallery-id="' + e + '"]').length - 1 && $(".next-lightbox").show(), $('a[data-gallery-id="' + e + '"]').index(a) > 0 && $(".prev-lightbox").show())
     })
+    
 }
 
 function addSwipeSupport() {
@@ -175,6 +176,7 @@ function addKeyBoardSupport() {
     $(window).keydown(function(t) {
         37 == t.which ? $(".prev-lightbox").is(":visible") && $(".prev-lightbox").click() : 39 == t.which && $(".next-lightbox").is(":visible") && $(".next-lightbox").click()
     })
+    
 }
 
 function addLightBoxSwipeSupport() {
@@ -201,5 +203,6 @@ $(document).ready(function() {
 }), $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 });
+
 
 
