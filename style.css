@@ -10,6 +10,8 @@ body {
     padding-top: 60px;
 }
 
+
+
 /*accessibilité navigation et lien avec le focus (start)*/
 .navbar-brand:focus{
     border: solid black 2px;
@@ -39,6 +41,7 @@ body {
 .d-bloc a:focus .icon-md{
     color: rgb(255, 255, 255);
 }
+
 /*accessibilité navigation et lien avec le focus (end)*/
 
 a,
@@ -178,7 +181,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgb(33, 33, 33);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -242,7 +245,9 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
 }
 
 .d-bloc .panel button:hover,
@@ -278,7 +283,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -354,7 +359,7 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[src=svg] {
     min-width: 100px;
 }
 
@@ -394,7 +399,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0);
     width: 26px;
 }
 
@@ -683,7 +688,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
     background: none;
 }
 
@@ -699,7 +704,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1b1b1b!important;
 }
 
 .container {
@@ -875,7 +880,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
