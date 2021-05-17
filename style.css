@@ -799,6 +799,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .portfolio-row {
